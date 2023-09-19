@@ -5,4 +5,4 @@
   - name: creating user 
     shell: |
         cd /home/hcligt
-        mkdir semaaa
+        mkdir "{{dirname}}"
