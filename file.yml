@@ -1,0 +1,8 @@
+---
+- name: task with shell in yml
+  hosts: all
+  task:
+  - name: creating user 
+    shell: |
+        cd /home/hcligt
+        ls -a
