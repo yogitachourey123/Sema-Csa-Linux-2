@@ -1,6 +1,5 @@
 ---
 - name: task with shell in yml
-  hosts: all
   tasks:
   - name: creating user 
     shell: |
